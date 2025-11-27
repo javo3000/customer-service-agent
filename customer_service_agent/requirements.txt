@@ -1,0 +1,10 @@
+langgraph
+pymongo
+chromadb
+fastapi
+python-dotenv
+langchain-openai
+faiss-cpu
+langchain-community
+uvicorn
+pydantic-settings
