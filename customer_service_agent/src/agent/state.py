@@ -25,6 +25,15 @@ class AgentState(TypedDict):
     
     # Optional feedback score from the user (0.0 to 1.0)
     feedback_score: Optional[float]
+    
+    # Route determined by the orchestrator ('order_inquiry', 'legal_inquiry', etc.)
+    route: Optional[str]
+    
+    # Classified intent (e.g., 'check_status', 'policy_query')
+    intent: Optional[str]
+    
+    # Data sources needed for this query (e.g., ['vector_db', 'mongo_db'])
+    needed_sources: List[str]
 
 def validate_state(state: AgentState, required_fields: List[str]) -> bool:
     """

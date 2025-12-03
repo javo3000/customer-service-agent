@@ -8,3 +8,4 @@ faiss-cpu
 langchain-community
 uvicorn
 pydantic-settings
+pypdf

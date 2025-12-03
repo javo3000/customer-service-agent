@@ -23,3 +23,28 @@
     - `agent/`: LangGraph agent logic
     - `database/`: Database connections
     - `utils/`: Helper functions
+    - `frontend/`: React frontend application
+
+## Frontend Setup
+
+1.  Navigate to the frontend directory:
+    ```bash
+    cd frontend
+    ```
+
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+4.  Build for production:
+    ```bash
+    npm run build
+    ```
+
+The frontend will be available at `http://localhost:5173` (by default). It proxies API requests to `http://localhost:8000`.
