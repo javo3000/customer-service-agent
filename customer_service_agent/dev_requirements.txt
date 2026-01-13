@@ -1,0 +1,4 @@
+watchdog
+pytest
+black
+flake8
