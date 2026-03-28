@@ -115,7 +115,7 @@ Edit `.env` with your credentials:
 OPENAI_API_KEY=your_openai_key
 OPENAI_API_BASE_URL=https://api.openai.com/v1
 OPENAI_API_KEY_AI_GRID=your_ai_grid_key  # Or same as above
-MONGO_URI=mongodb+srv://user:pass@cluster.mongodb.net
+MONGO_URI="mongodb credentials."
 TAVILY_API_KEY=your_tavily_key
 
 # Optional
