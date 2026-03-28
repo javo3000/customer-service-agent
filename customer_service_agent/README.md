@@ -1,4 +1,4 @@
-# AlFin Support - AI Customer Service Agent
+# Workmerate Tax customer Support - AI Customer Service Agent
 
 A **LangGraph-powered** AI customer service agent with real-time streaming responses, web search fallback, and a modern React chat interface.
 
